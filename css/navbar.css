@@ -5,7 +5,7 @@
 }
 
 #nav-content a:hover {
-    color: red;
+    color: red !important;
   }
 
 #navbar{
@@ -13,10 +13,13 @@
     z-index:5;
     height: 50px;
   width: 100vw;
+  
 }
 
+
+
 #logo{
-    width:30px;
-    height:35px;
+    width:40px;
+    height:40px;
     
 }

@@ -19,9 +19,9 @@
     
 }
 
-.jumbotron:hover {
-    animation: .8s shake  ;
-}
+/* .jumbotron {
+    animation: 1s shake infinite ; */
+/* } */
 
 @keyframes shake {
   0% { transform: skewX(-10deg); }
