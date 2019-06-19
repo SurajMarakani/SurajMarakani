@@ -1,0 +1,25 @@
+#social-btns a {
+    color: red;
+    margin: 1em;
+    justify-content: center;
+}
+
+#social-btns a:hover {
+    color: grey;
+}
+
+.socBtn{
+    position: relative;
+    margin-top: 100px;
+    display:inline-block;
+    width:100%;
+    text-align: center;
+    margin-bottom: 0px;
+
+
+  }
+
+  .copyright{
+      color:gray;
+      margin-top:100px; 
+  }

@@ -1,0 +1,32 @@
+#contact{
+color: white;
+
+}
+
+.text-center{
+    font-size:350%;
+    margin-top:0px;
+}
+
+.row{
+    text-align:center;
+}
+
+#cnt{
+    margin-left:350px;
+    margin-top:50px;
+    height: 100px;  
+    display: inline-block;
+}
+
+.form-group{
+    width:400px;
+}
+
+#message{
+    height:200px;
+}
+
+#submit{
+    color:white;
+}

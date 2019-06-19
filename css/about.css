@@ -1,0 +1,170 @@
+.aboutMe{
+    color: white;
+}
+
+.abtMeTitle{
+    font-size: 600%;
+    text-align: center;
+    text-shadow: 4px 4px 4px  red;
+    
+}
+
+.abtMeDescription{
+    /* text-align:; */
+    z-index:2;
+    margin-left:700px;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+#profilePic{
+    margin-top:-100px;
+    margin-left: 250px;
+    width:250px;
+    height:250px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: var(--black);
+    color:white;
+    margin-left: 600px;
+    margin-right:200px;
+    z-index:3;
+    margin-top:-150px;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: var(--black);
+    margin-left:410px;
+    margin-top:-20px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: white;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  .skills{
+      margin-top:20px;
+  }
+
+.abt{
+   height:500px;
+   margin-top: 150px;
+}
+
+.modelLinks{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.btn{
+    background-color: red;
+    border:solid black 1px;
+    
+}
+
+#resBtn{
+    position: relative;
+    margin-left: 645px; 
+    margin-bottom: 100px;
+    width:400px;
+    height:50px;   
+}
+
+.skills{
+    color:white;
+    text-align: center;
+    
+}
+
+.sTitle{
+    font-size: 600%
+}
+#icons i{
+    color: red;
+    margin: 1em;
+    justify-content: center;
+    font-size: 1500%;
+    margin-left:150px;
+}
+
+
+
+#html{
+    margin-right:2em;
+}
+
+#github{
+    margin-left:2em;
+}
+
+.sTitle{
+    text-shadow: 4px 4px 4px  red;
+    
+}
+
+.modal-body{
+  background-color:var(--black);
+   display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+

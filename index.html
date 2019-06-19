@@ -14,59 +14,184 @@
 
     <!-- Main.css -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <!-- Navbar section -->
+  
     <section id="navbar">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand text-danger" href="#">Navbar</a>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand text-light" href="#"><img src="../portfolio/assets/Screen Shot 2019-06-19 at 11.19.44 AM.png" id="logo"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-nav" id="nav-content">
-                        <a class="nav-item nav-link active text-danger" href="#home">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link text-danger" href="#aboutMe">About Me</a>
-                        <a class="nav-item nav-link text-danger" href="#profile">Profile</a>
-                        <a class="nav-item nav-link text-danger" href="#portfolio">Portfolio</a>
+                        <a class="nav-item nav-link text-white" href="#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link text-white" href="#abt">About Me</a>
+                        <a class="nav-item nav-link text-white" href="#skills">Skills</a>
+                        <a class="nav-item nav-link text-white" href="#portfolio">Portfolio</a>
+                        <a class="nav-item nav-link text-white" href="#contact">Contact</a>
                       </div>
                     </div>
                   </nav>
     </section>
 
-    <!-- Jumbotron -->
+    <!--Header-->
     <section id="home">
-        <header class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-            </div>
-        </header>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <!-- <p class="lead">Graphic Designer.</p> -->
+          
+        </div>
+      </div>
+      <div class = "head">
+        <h1 class="display-4">Suraj Marakani</h1>
+        <p class="lead">Web Developer</p> <!-- add flicker -->
+      </div>
     </section>
 
-    <!-- ABOUT -->
-    <section id="about">
-            <div class="container" id="projectContainer">
-                    <div class="row">
-                      <div class="col-4">
-                        <p>CSS Creature</p>
-                      </div>
-                      <div class="col-5">
-                        <p>Static Layout</p>
-                      </div>
-                      <div class="col-2">
-                        <p>API Project</p>
+
+      <!-- About Me -->
+      <section id="abt"> 
+        <div class="aboutMe">
+          <h1 class = "abtMeTitle">About Me</h1>
+          <p class = "abtMeDescription">I am a second year computer science major at Indiana University. I am currently a student at Eleven Fifty Academy and attending the javascript course. I would consider that I have a high aptitude for computer programming because when I learn or read about something new I tend to generally understand and excel in it. My interest in the particular subject is also a factor in the skillset that I aquired. I am very interested in the subject matter and will always be happy to learn new things and master it. </p>
+          <img src="./assets/profile.jpeg" id="profilePic">
+        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          
+          <!-- Full-width slides/quotes -->
+          <div class="mySlides">
+            <q>"Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do."</q>
+            <p class="author">- Pele</p>
+          </div>
+          
+          <div class="mySlides">
+            <q>"But man is not made for defeat. A man can be destroyed but not defeated."</q>
+            <p class="author">- Ernest Hemingway</p>
+          </div>
+          
+          <div class="mySlides">
+            <q>“You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.”</q>
+            <p class="author">- Dr.Seuss</p>
+          </div>
+          
+          <!-- Next/prev buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <!-- Dots/bullets/indicators -->
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+      </section>
+
+      <br>
+
+      <!-- Skills -->
+
+      <section id=skills>
+        <div class="skills">
+        <h1 class= "sTitle">Skills</h1>
+        <div id="icons">
+        <i class="fab fa-html5" id="html"></i>
+        <i class="fab fa-js" id="css"></i>
+        <i class="fab fa-css3-alt" id="github"></i>
+      </div>
+      </div>
+      </section>
+        
+      <!-- resume -->
+      <button type="button" class="btn btn-primary" id="resBtn" data-toggle="modal" data-target=".bd-example-modal-lg">Resume</button>
+
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modelLinks">
+
+              <div class="modal-body">
+                <h5></h5>
+                <p><a href="https://www.linkedin.com/feed/" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">LinkedIn</a></p>
+              </div>
+
+                <div class="modal-body">
+                  <h5></h5>
+                  <p><a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">resume</a> </p>
+                </div>
+                  
+                <div class="modal-body">
+                  <h5></h5>
+                  <p><a href="https://github.com/SurajMarakani" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">GitHub</a></p>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <br>
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+
+          <div class="containerP">
+            <div class="row">
+              <div class="col-sm-4">
+                <!-- CSS Creature -->
+                <div class="card" style="width: 40rem"; id="card1">
+                    <div class="p-3 mb-2 bg-dark text-white" id="card1">
+                      <img src="./assets/CSS CREATURE.png" class="card-img-top" id="card-img-1"alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                        <a href="https://codepen.io/Jaruss/pen/Mdxegp" class="btn btn-primary">CSS Creature</a>
                       </div>
                     </div>
                   </div>
-    </section>
-
-
-    <!-- Contact -->
+                </div>
+                <div class="col-sm-4">
+                  <!-- Static Layout -->
+                  <div class="card" style="width: 40rem;" id="card2">
+                      <div class="p-3 mb-2 bg-dark text-white"id="card2">
+                        <img src="./assets/Screenshot (9).png" class="card-img-top" id="card-img-2" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"></h5>
+                          <p class="card-text"></p>
+                          <a href="https://surajmarakani.github.io/staticLayout/" class="btn btn-primary">Static Layout</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <!-- API Project -->
+                    <div class="card" style="width: 40rem;" id="card3">
+                        <div class="p-3 mb-2 bg-dark text-white" id="card3">
+                          <img src="./assets/Screen Shot 2019-06-18 at 10.43.16 AM.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text"></p>
+                            <a href="https://sgmovieapi.web.app/" class="btn btn-primary">API-Project</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+                
+                <br>
+                
+                <!-- Contact -->
     <section id="contact">
             <div class="container">
               <h2 class="text-center text-uppercase">Contact Me</h2>
-              <div class="row">
+              <div class="row" id="cnt">
                 <form action="https://formspree.io/skmarakani@gmail.com" method="POST">
                   <div class="control-group">
                     <div class="form-group">
@@ -114,7 +239,7 @@
                   </div>
                   <div class="text-center">
                     <div id="success"></div>
-                    <button type="submit" class="btn btn-lg btn-black">
+                    <button type="submit" class="btn btn-lg btn-black" id="submit">
                       <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                       Send Message
                     </button>
@@ -124,9 +249,22 @@
             </div>
           </section>
 
+          <!-- Footer -->
+          <section class="socBtn">
+              <div id="social-btns">
+                  <a href="https://www.linkedin.com/feed/" target="blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                  <a href="https://github.com/SurajMarakani"><i class="fab fa-github fa-3x"></i></a>
+                  <a href="https://codepen.io/dashboard/"><i class="fab fa-codepen fa-3x"></i></a>
+                </div>
+                <div class="copyright">
+                  <p>Copyright © 2019 - Suraj Marakani. </p>
+                  <p>All trademarks and registered trademarks are the property of their respective owners.</p>
+                </div>
+          </section>
 
 
 
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

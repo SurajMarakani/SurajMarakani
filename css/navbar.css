@@ -1,3 +1,22 @@
 #nav-content{
     margin-left: 80%;
+    
+    
+}
+
+#nav-content a:hover {
+    color: red;
+  }
+
+#navbar{
+   position: fixed;
+    z-index:5;
+    height: 50px;
+  width: 100vw;
+}
+
+#logo{
+    width:30px;
+    height:35px;
+    
 }
