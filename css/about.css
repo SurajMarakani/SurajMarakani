@@ -122,9 +122,10 @@
 }
 
 #resBtn{
+    display: flex;
     position: relative;
-    margin-left: 645px; 
-    margin-bottom: 100px;
+    align-items: center;
+    margin: auto;
     width:400px;
     height:50px;   
 }
